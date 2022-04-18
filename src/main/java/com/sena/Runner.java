@@ -26,8 +26,6 @@ public class Runner {
         for (Customer customer : new CustomerRepository().findAll(new Customer())) {
             System.out.println(customer.toString());
         }
-
-
     }
 
 
